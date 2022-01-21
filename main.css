@@ -1,0 +1,155 @@
+@import url("reset.css");
+@import url("https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+
+body {
+    background-color: aqua;
+    
+    
+}
+
+.bg img{
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*헤드메뉴*/
+.logo {
+    position: absolute;
+    top: 32px;
+    left: 40px;
+}
+.head_wrap{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-bottom: 1px solid rgba(255,255,255,0.1)
+}
+
+.head_menu{
+    margin:0 auto;    
+}
+
+.menu_list{
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 97px;
+    margin-top: 41px;
+    font-weight: 400;
+    
+}
+
+.menu_list li{
+    width: 15%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.head_con ul > li:first-child{
+    right: 145px;
+    top: 35px;
+    position: absolute;
+    
+}
+.head_con ul > li > a {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.main_tit{
+    position: absolute;
+    top: 240px;
+    left: 190px;
+    text-align: center;  
+    color: #2b3c49;
+    line-height: 42px;
+    letter-spacing: -1.9px;
+}
+.main_tit h2{
+    font-size: 34px    ;
+}
+.main_tit h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main_tit p {
+    line-height: 24px;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #666;
+}
+.line {
+    width: 265px;
+    height: 35px;
+    border-left: 1px solid #2b3c49;
+    margin: 15px 0;
+    position: absolute;
+    left: 50%;
+}
+.logo_ov{
+    margin-top: 80px;
+}
+.logo_ov p{
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #2b3c49;
+
+}
+.logo_ov p:last-child{
+    margin-top: 20px;
+    font-size: 32px;
+}
+.logo_ov p > span{
+    font-size: 19px;
+}
+.logo_ov img{
+    width: 320px;
+}
+
+
+/*퀵메뉴*/
+.quick_btn{position:absolute; right: 0; top: 100px;}
+.quick_btn img{display: inline-block; vertical-align: top;}
+.quick_btn ul li:last-child{text-align: center; margin-top: 20px;}
+
+/*왼쪽배너*/
+.left_btn{position: absolute; top: 30%; left: 0; width: 76px; height: 410px; background: url(image/btn_sky_default_3.png) no-repeat;}
+
+
+/*메인*/
+.main_feature{height: 532px; padding-top: 130px; padding-bottom: 150px; background: url(image/main_bg1.jpeg) no-repeat; background-color: #fff; text-align: center;}
+.main_feature h2 {color: rgb(216,181,126); font-size: 34px; letter-spacing: -0.15rem; }
+
+.main_feature h1 {font-size: 50px; font-weight: 900; color: #2b3c49; margin-top: 20px; letter-spacing: -.15rem;}
+.main_feature p {margin-top: 20px; line-height: 24px; color: rgb(130,130,130)}
+
+.main_feature ul {margin-top: 50px;}
+.main_feature ul li {display: inline-block;}
+.main_feature ul li img {margin-right: 18px; box-shadow: 5px 5px 5px rgb(0 0 0 / 10%);}
+
+
+.main_premium{height: 532px; padding-top: 130px; padding-bottom: 150px; background: url(image/main_bg2.jpeg) no-repeat; background-color: #fff; text-align: center;}
+.main_premium h2{text-align: left; font-size: 26px; margin-left: 254px; line-height: 32px; color: rgb(216,181,126); font-weight: 500; letter-spacing: -0.15rem;}
+.main_premium h2 span{color: rgb(47,60,72); font-weight: 600;}
+
+
+
+
+
+
+
+
+
+
+
