@@ -21,7 +21,7 @@ a:hover{ text-decoration: none; }
 a:visited { text-decoration: none;}
 a:active { text-decoration: none;}
 
-body {line-height: 1; background: #fff; color: #000;}
+body {line-height: 1; background: #fff; color: #000; font-famliy:'Noto sans kr';}
 ol,ul { list-style:none; }
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary { display: block;}
